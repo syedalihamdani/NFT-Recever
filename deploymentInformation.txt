@@ -1,0 +1,76 @@
+ Compiling your contracts...
+===========================
+> Compiling .\contracts\Migrations.sol
+> Compiling .\contracts\NFT.sol
+> Compiling .\contracts\NFT.sol
+> Artifacts written to C:\BigImmersiive\3rdTask\build\contracts
+> Compiled successfully using:
+   - solc: 0.8.2+commit.661d1103.Emscripten.clang
+
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0xf1ce706710ea05c22633d3c66d571bc8d571676c4a8fd03eefc9cf5bf6f62cdc
+   > Blocks: 1            Seconds: 9
+   > contract address:    0xE91D39dB7B8FF4938EEa078b400474C66896A92F
+   > block number:        10484398
+   > block timestamp:     1649659548
+   > account:             0x4f7959a3191e2505275c8b16c6228A64D3178bbE
+   > balance:             0.590764184962779723
+   > gas used:            248204 (0x3c98c)
+   > gas price:           2.500000011 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000620510002730244 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 10484399)
+   > confirmation number: 2 (block: 10484400)
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------     
+   > Total cost:     0.000620510002730244 ETH
+
+
+2_NFT.js
+========
+
+   Replacing 'NFT'
+   ---------------
+   > transaction hash:    0x51f4f148a1d3457ea51d46797c03e111e9e9b5dcd7453995a112936d2f9ccc01
+   > Blocks: 2            Seconds: 21
+   > contract address:    0xa1Eb1E1c6B717A6fa7d062e66010cBA0C766AB15
+   > block number:        10484403
+   > block timestamp:     1649659623
+   > account:             0x4f7959a3191e2505275c8b16c6228A64D3178bbE
+   > balance:             0.5828414524279197
+   > gas used:            3123180 (0x2fa7ec)
+   > gas price:           2.500000011 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00780795003435498 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 10484404)
+   > confirmation number: 2 (block: 10484405)
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.00780795003435498 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.008428460037085224 ETH
